@@ -1,0 +1,113 @@
+.big {
+    max-width: 30%;
+    margin: auto;
+    margin-top: 13%;
+    border-radius: 20px;
+    min-width: 600px;
+}
+
+.left {
+    height: 425px;
+    padding: 0;
+    margin: 0;
+}
+
+.left img {
+    height: 425px;
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.row {
+    background-color: white;
+}
+
+.right {
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.perfume {
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.35rem;
+    font-size: 1px;
+}
+
+.gabriele {
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+    width: 80%;
+    font-weight: bolder;
+    color: hsl(212, 21%, 14%);
+    line-height: 1;
+}
+
+.text {
+    line-height: 1.7;
+    color: hsl(228, 12%, 48%);
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.bt {
+    color: hsl(158, 36%, 37%);
+    font-size: 1.9rem;
+    font-weight: bolder;
+    position: relative;
+    font-family: 'Fraunces', serif;
+}
+
+.st {
+    color: hsl(227, 10%, 55%);
+    position: relative;
+    top: 14px;
+    text-decoration: line-through;
+    font-family: 'Fraunces', serif;
+    font-size: 14px;
+}
+
+.btn {
+    padding: auto;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    width: 95%;
+    height: 10%;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+
+@media (max-width: 994px) and (min-width: 0px) {
+    .big {
+        max-width: 90%;
+        margin: auto;
+        margin-top: 13%;
+        border-radius: 20px;
+        min-width: 300px;
+    }
+    .left img {
+        height: 425px;
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+    }
+    .right {
+        padding-left: 25px;
+        padding-top: 25px;
+        height: 335px;
+    }
+    .btn {
+        padding: auto;
+        background-color: hsl(158, 36%, 37%);
+        color: white;
+        width: 95%;
+        height: 15%;
+        font-weight: bold;
+        position: relative;
+        top: 20px;
+    }
+}
