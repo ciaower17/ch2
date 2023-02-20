@@ -82,13 +82,13 @@ body {
     top: 10px;
 }
 
-@media (max-width: 994px) and (min-width: 0px) {
+@media (max-width: 992px) {
     .big {
         max-width: 90%;
         margin: auto;
         margin-top: 13%;
         border-radius: 20px;
-        min-width: 300px;
+        min-width: 400px;
     }
     .left img {
         height: 425px;
@@ -99,6 +99,41 @@ body {
         padding-left: 25px;
         padding-top: 25px;
         height: 335px;
+    }
+    .btn {
+        padding: auto;
+        background-color: hsl(158, 36%, 37%);
+        color: white;
+        width: 95%;
+        height: 15%;
+        font-weight: bold;
+        position: relative;
+        top: 20px;
+    }
+}
+
+@media only screen and (max-width: 692px) {
+    .big {
+        width: 90%;
+        margin-top: 13%;
+        border-radius: 20px;
+        display: block;
+    }
+    .left {
+        height: 425px;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    .left img {
+        height: 425px;
+        border-radius: 20px 20px 0 0;
+    }
+    .right {
+        padding-left: 25px;
+        padding-top: 25px;
+        height: 400px;
+        width: 100%;
     }
     .btn {
         padding: auto;
